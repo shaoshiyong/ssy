@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mTitleLayoutRoot"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/titlebar_height"
+    android:background="@color/titlebar"
+    android:clipToPadding="false"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:animateLayoutChanges="true">
+
+        <ImageView
+            android:id="@+id/mTitleBackButton"
+            android:layout_width="@dimen/titlebar_height"
+            android:layout_height="match_parent"
+            android:background="?selectableItemBackground"
+            android:contentDescription="@null"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/title_back_white" />
+
+        <TextView
+            android:id="@+id/mTitleTxt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/titlebar_height"
+            android:layout_marginRight="@dimen/titlebar_height"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:lines="1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <!--用于增加自定义视图进入标题栏中央位置-->
+        <LinearLayout
+            android:id="@+id/mTitleCustomLayoutContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/titlebar_height"
+            android:layout_marginRight="@dimen/titlebar_height"
+            android:orientation="vertical" />
+
+        <ImageView
+            android:id="@+id/mTitleOperaButton"
+            android:layout_width="@dimen/titlebar_height"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:background="?selectableItemBackground"
+            android:contentDescription="@null"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" />
+
+        <TextView
+            android:id="@+id/mTitleOperaText"
+            android:layout_width="@dimen/titlebar_height"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="?selectableItemBackground"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/mTitleDeviderLine"
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="@color/divider_line" />
+</LinearLayout>

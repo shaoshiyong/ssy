@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_primary">#3F51B5</color>
+    <color name="bg_primary_deep">#303F9F</color>
+    <color name="bg_window">#F0F0F0</color>
+    <color name="bg_window_deep">#F4F4F4</color>
+    <color name="accent">#FF4081</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="white_halftransparency">#7fffffff</color>
+    <color name="black">#000000</color>
+    <color name="black_translucent">#B2000000</color>
+    <color name="red">#E50011</color>
+    <color name="red_light">#EF534E</color>
+    <color name="red_deep">#D3433E</color>
+    <color name="green_light">#42833b</color>
+    <color name="orange">#FF9900</color>
+    <color name="orange_light">#FF9732</color>
+    <color name="purple">#7068e2</color>
+
+    <color name="_333">#333333</color>
+    <color name="_ccc">#cccccc</color>
+    <color name="_999">#999999</color>
+    <color name="_666">#666666</color>
+    <color name="_888">#888888</color>
+    <color name="_555">#555555</color>
+    <color name="ef">#EFEFEF</color>
+    <color name="df">#DFDFDF</color>
+    <color name="d8">#D8D8D8</color>
+    <color name="fd">#fdfdfd</color>
+    <color name="e9">#e9e9e9</color>
+    <color name="f4">#f4f4f4</color>
+    <color name="_4f">#4f4f4f</color>
+    <color name="e7">#e7e7e7</color>
+    <color name="_92">#929292</color>
+    <color name="dd">#DDDDDD</color>
+    <color name="bd">#BDBDBD</color>
+    <color name="f7">#F7F7F7</color>
+    <color name="f8">#F8F8F8</color>
+    <color name="ee">#EEEEEE</color>
+    <color name="fc">#FCFCFC</color>
+
+    <color name="titlebar">#3F51B5</color>
+    <color name="divider_line">#e7e7e7</color>
+    <color name="divider_block">#f0f0f0</color>
+</resources>
